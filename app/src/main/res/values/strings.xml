@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Havelev Gym</string>
+    <string name="skip"><u>Skip</u></string>
+    <string name="sig_up"><u>Sign Up</u></string>
+</resources>
