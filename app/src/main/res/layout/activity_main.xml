@@ -11,7 +11,7 @@
         style="@style/TextStyleND"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Наверное нужно ыло сделать больше)"
+        android:text="Наверное нужно было сделать больше)"
         android:textColor="@color/selected"
         android:layout_marginHorizontal="20dp"
         android:paddingHorizontal="40dp"
