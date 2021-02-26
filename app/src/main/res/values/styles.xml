@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="CustomButton">
+    <style name="CustomButton" parent="TextAppearance.AppCompat.Button">
         <item name="android:background">@drawable/buttons</item>
+    </style>
+    <style name="CustomButton.TextStyleND">
+        <item name="android:background">@drawable/buttons</item>
+        <item name="android:textFontWeight">900</item>
+        <item name="android:fontFamily">@font/family</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#AAAAA9</item>
+        <item name="android:textAllCaps">false</item>
     </style>
     <style name="TextStyleND">
         <item name="android:textFontWeight">900</item>

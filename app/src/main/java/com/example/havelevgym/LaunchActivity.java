@@ -30,7 +30,7 @@ public class LaunchActivity extends AppCompatActivity {
 
     public  void nextActivity(){
         if(pref.getBoolean("FirstRun",true)){
-            intent = new Intent(LaunchActivity.this,MainActivity.class);
+            intent = new Intent(LaunchActivity.this,HelloActivity.class);
             pref.edit().putBoolean("FirstRun",false).commit();
         }
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK|Intent.FLAG_ACTIVITY_NEW_TASK);

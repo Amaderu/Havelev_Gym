@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/custom_500"
+    tools:context=".HelloActivity">
+    <TextView
+        android:id="@+id/step"
+        style="@style/TextStyleND"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Step 1/5"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/answer"
+        style="@style/TextStyleND"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:lines="1"
+        android:text="What is your purpose?"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/step" />
+
+    <Button
+        android:id="@+id/btn1"
+        style="@style/CustomButton.TextStyleND"
+        android:layout_width="312dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/buttons"
+        android:drawableStart="@drawable/ico_weigh"
+        android:paddingLeft="23dp"
+        android:text="Weight loss"
+        android:textAlignment="textStart"
+        android:drawablePadding="30dp"
+        android:textAllCaps="false"
+        android:textColor="@color/custom"
+
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/answer" />
+
+    <Button
+        android:id="@+id/btn2"
+        style="@style/CustomButton.TextStyleND"
+        android:layout_width="312dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/buttons"
+        android:drawableStart="@drawable/ico_keep_fit"
+        android:paddingLeft="23dp"
+        android:text="Keeping fit"
+        android:textAlignment="textStart"
+        android:drawablePadding="30dp"
+        android:textAllCaps="false"
+        android:textColor="@color/custom"
+
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn1" />
+
+    <Button
+        android:id="@+id/btn3"
+        style="@style/CustomButton.TextStyleND"
+        android:layout_width="312dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/buttons"
+        android:drawableStart="@drawable/ico_muscle"
+        android:paddingLeft="23dp"
+        android:text="Build muscule"
+        android:textAlignment="textStart"
+        android:drawablePadding="30dp"
+        android:textAllCaps="false"
+        android:textColor="@color/custom"
+
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

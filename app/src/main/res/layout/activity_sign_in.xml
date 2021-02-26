@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/back"
+    android:background="@color/custom_500"
     tools:context=".SignInActivity">
 
     <ImageView
@@ -70,12 +70,12 @@
         android:layout_width="312dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-
+        android:background="@drawable/buttons"
         android:text="Sign In"
         android:textAllCaps="false"
         android:textColor="@color/custom"
-        android:textSize="24sp"
 
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edtPassword" />
@@ -88,6 +88,8 @@
         android:background="@color/transparent"
         android:text="@string/sig_up"
         android:textAllCaps="false"
+        android:textColor="@color/white"
+
         android:textSize="24sp"
 
         app:layout_constraintEnd_toEndOf="parent"
