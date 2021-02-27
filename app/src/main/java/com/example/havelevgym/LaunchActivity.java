@@ -18,7 +18,7 @@ public class LaunchActivity extends AppCompatActivity {
         setContentView(R.layout.activity_launch);
         handler = new Handler();
         pref = getSharedPreferences("appRunnable",0);
-        intent = new Intent(LaunchActivity.this,SignInActivity.class);
+        intent = new Intent(LaunchActivity.this,HelloActivity.class);
         nextActivity();
         handler.postDelayed(new Runnable() {
             @Override
@@ -30,7 +30,7 @@ public class LaunchActivity extends AppCompatActivity {
 
     public  void nextActivity(){
         if(pref.getBoolean("FirstRun",true)){
-            intent = new Intent(LaunchActivity.this,HelloActivity.class);
+            intent = new Intent(LaunchActivity.this,SignInActivity.class);
             pref.edit().putBoolean("FirstRun",false).commit();
         }
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK|Intent.FLAG_ACTIVITY_NEW_TASK);

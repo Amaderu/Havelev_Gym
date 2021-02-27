@@ -2,4 +2,7 @@
     <string name="app_name">Havelev Gym</string>
     <string name="skip"><u>Skip</u></string>
     <string name="sig_up"><u>Sign Up</u></string>
+    <string name="answer_1">What is your purpose?</string>
+    <string name="answer_2">What is your gender?</string>
+    <string name="answer_3">What do you want to work on?</string>
 </resources>
